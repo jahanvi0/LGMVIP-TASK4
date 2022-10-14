@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: url(images/cal-img.jpg);
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background:rgba(155, 231 240, 0.929);
+    position: absolute;
+    border: 2px solid rgba(107, 206, 245, 0.4);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.btn {
+    padding: 17px 22px;
+    margin: 3px 5px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 25px;
+    width: 65px;
+    background-color: pink;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color:rgb(153, 208, 218);
+}
+
+#clear {
+    width: 315px;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 16px;
+    color: rgb(240, 141, 187);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    font-weight: 900;
+    font-size: 25px;
+    padding: 15px 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: rgb(190, 228, 235);
+    text-align: right;
+}
+
+::placeholder {
+    font-size: 25px;
+    color: #000;
+}
